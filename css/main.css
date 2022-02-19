@@ -75,17 +75,17 @@ nav .nav-right-section li:nth-child(4) img {
 
 main {
     text-align: center;
-    margin: 20px 0 40px;
+    padding-top: 20px;
+    min-height: calc(100vh - 49px - 58px);
 }
 main .main-logo {
     width: auto;
-    height: 10rem;
     margin: 0 auto;
-    margin-bottom: 3.5rem;
+    margin-bottom: 3.6rem;
 }
 main .main-logo img {
     width: 30rem;
-    height: 100%;
+    height: 10rem;
 }
 main .main-input {
     min-width: 3.2rem;
@@ -156,10 +156,9 @@ main .main-buttons button:hover {
 
 footer {
     width: 100%;
-    height: auto;
     padding: 0 20px;
-    position: absolute;
-    bottom: 0;
+    /* position: absolute; */
+    /* bottom: 0; */
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -178,13 +177,35 @@ footer ul li a {
     color: #5f6368 ;
 }
 
-@media (max-width: 886px) {
+@media (max-width: 870px) {
+    main {
+        padding-top: 14px;
+        min-height: calc(-58px + 100vh - 49px - 48px);
+    }
+    main .main-logo {
+        margin-bottom: 28px;
+    }
+    main .main-logo img {
+        width: 22.5rem;
+        height: 7.5rem;
+    }
     footer {
         justify-content: center;
     }
 }
 
-@media (max-width: 564px) {
+@media (max-width: 553px) {
+    main {
+        padding-top: 8px;
+        min-height: calc(-58px + 100vh - 97px - 48px);
+    }
+    main .main-logo {
+        margin-bottom: 20px;
+    }
+    main .main-logo img {
+        width: 15rem;
+        height: 5rem;
+    }
     footer .footer-left {
         height: 96px;
         flex-wrap: wrap;
