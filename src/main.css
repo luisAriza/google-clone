@@ -28,13 +28,13 @@ header nav {
   display: flex;
   justify-content: flex-end;
   width: 100%;
-  height: 6rem;
+  height: 60px;
   padding: 8px 16px;
 }
 nav ul {
   display: flex;
   align-items: center;
-  gap: 1.2rem;
+  gap: 12px;
   list-style: none;
 }
 nav ul a {
@@ -45,8 +45,8 @@ nav .app-icon,
 nav .user-icon {
   display: grid;
   place-content: center;
-  width: 4rem;
-  height: 4rem;
+  width: 40px;
+  height: 40px;
   cursor: pointer;
 }
 nav .app-icon:hover,
@@ -55,11 +55,11 @@ nav .user-icon:hover {
   border-radius: 50%;
 }
 nav .app-icon svg {
-  width: 2.4rem;
-  height: 2.4rem;
+  width: 24px;
+  height: 24px;
 }
 nav .user-icon img {
-  width: 3.2rem;
+  width: 32px;
 }
 header .logo {
   align-self: center;
@@ -70,30 +70,30 @@ form {
   display: grid;
   place-items: center;
   width: 100%;
-  padding: 2rem;
+  padding: 20px;
 }
 .input-content,
 .buttons-container {
-  min-width: 3.2rem;
+  min-width: 32px;
   width: 100%;
-  max-width: 58rem;
+  max-width: 580px;
 }
 .input-content label {
   display: flex;
   align-items: center;
   padding: 4px 16px;
-  border-radius: 10rem;
-  border: 0.1rem solid #dfe1e5;
+  border-radius: 100px;
+  border: 1px solid #dfe1e5;
 }
 label:focus-within,
 label:hover {
   background-color: #dfe1e146;
   border-color: #dfe1e146;
-  box-shadow: 0 0.2rem 0.5rem 0 #78777747;
+  box-shadow: 0 2px 5px 0 #78777747;
 }
 form input {
   width: 100%;
-  height: 3.2rem;
+  height: 32px;
   padding: 2px 12px;
   font-size: 1.6rem;
   border: none;
@@ -102,57 +102,57 @@ form input {
 }
 .search-icon {
   display: flex;
-  width: 2rem;
-  height: 3.6rem;
+  width: 20px;
+  height: 36px;
   opacity: 0.5;
 }
 .microphone-icon {
   display: flex;
-  width: 2.4rem;
-  height: 3.6rem;
+  width: 24px;
+  height: 36px;
   cursor: pointer;
 }
 .buttons-container {
   display: flex;
   justify-content: center;
-  padding-top: 1.8rem;
+  padding-top: 18px;
 }
 .buttons-container button {
-  height: 3.6rem;
-  margin: 1rem 0.5rem;
-  padding: 0 1.5rem;
+  height: 36px;
+  margin: 10px 5px;
+  padding: 0 15px;
   font-size: 1.4rem;
-  border-radius: 0.5rem;
-  border: 0.1rem solid #f2f2f2;
+  border-radius: 5px;
+  border: 1px solid #f2f2f2;
   color: #5f6368;
   background-color: #f2f2f2;
   cursor: pointer;
 }
 .buttons-container button:hover {
-  border: 0.1rem solid #c6c6c6;
+  border: 1px solid #c6c6c6;
   color: #212327;
 }
 
 footer {
-  width: 100%;
-  padding: 0 20px;
-  position: absolute;
-  bottom: 0;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  font-size: 14px;
+  width: 100%;
+  padding: 0 36px;
+  font-size: 1.4rem;
+  border-top: 1px solid #e4e4e4;
   background-color: #f2f2f2;
-  border-top: 0.1rem solid #e4e4e4;
+  position: absolute;
+  bottom: 0;
 }
 footer ul {
-  height: 48px;
-  list-style: none;
   display: flex;
   align-items: center;
+  gap: 32px;
+  height: 48px;
+  list-style: none;
 }
 footer ul li a {
-  margin: 1.6rem;
   color: #5f6368;
 }
 
