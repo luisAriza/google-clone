@@ -1,6 +1,6 @@
-# Clon de Google
+# Google: Clone
 
-En este proyecto se _maquetó_ el buscador de Google con **HTML** y **CSS** aplicando _breakpoints_ para hacerlo _responsivo_ y poder verlo en mobile, tablet y desktop.
+En este proyecto se _maquetó_ el buscador de Google con **HTML** y **CSS** aplicando _breakpoints_ para hacerlo _responsive_ y poder verlo en mobile, tablet y desktop.
 Se integró la herramienta de **Parcel** para automatizar y optimizar el codigo.
 
 Clona el proyecto en tu computadora para poder hacer tus propios cambios.
