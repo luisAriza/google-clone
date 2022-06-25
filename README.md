@@ -1,7 +1,6 @@
 # Google: Clone
 
-En este proyecto se _maquetó_ el buscador de Google con **HTML** y **CSS** aplicando _breakpoints_ para hacerlo _responsive_ y poder verlo en mobile, tablet y desktop.
-Se integró la herramienta de **Parcel** para automatizar y optimizar el codigo.
+En este proyecto se maquetó el buscador de Google con <ins>HTML</ins> y <ins>CSS</ins> puro, aplicando **breakpoints** para hacerlo responsive y poder verlo en mobile, tablet y desktop. Se integró la herramienta de <ins>Parcel</ins> para automatizar y optimizar el codigo.
 
 Clona el proyecto en tu computadora para poder hacer tus propios cambios.
 
@@ -19,7 +18,7 @@ Ahora ingresa en tu navegador http://localhost:2664/. Ya puedes hacer cambios al
 
 ## Building
 
-Si quieres enviar tu proyecto a distribución ejecuta:
+Si quieres enviar tu proyecto a producción ejecuta:
 ```sh
 npm run build
 ```
@@ -27,7 +26,7 @@ Se creará automaticamaente una carpeta llamada "dist" donde estará el codigo m
 
 ## Deploy
 
-Para subir el codigo a **GitHub Pages** solo ejecuta:
+Para subir el codigo a <ins>GitHub Pages</ins> solo ejecuta:
 ```sh
 npm run deploy
 ```
