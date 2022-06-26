@@ -1,7 +1,7 @@
 {
-  "name": "html_css-google_clone",
+  "name": "google_clone",
   "version": "1.0.0",
-  "description": "En este proyecto se _maquetó_ el buscador de Google con **HTML** y **CSS** aplicando _breakpoints_ para hacerlo _responsivo_ y poder verlo en mobile, tablet y desktop.",
+  "description": "",
   "source": "src/index.html",
   "scripts": {
     "start": "parcel -p 2664",
@@ -13,7 +13,7 @@
     "url": "git+https://github.com/luisAriza/google_clone.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Luis Ariza",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/luisAriza/google_clone/issues"
