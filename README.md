@@ -1,6 +1,6 @@
 # Google: Clone
 
-En este proyecto se maquetó el buscador de Google con <ins>HTML</ins> y <ins>CSS</ins> puro, aplicando **breakpoints** para hacerlo responsive y poder verlo en mobile, tablet y desktop. Se integró la herramienta de <ins>Parcel</ins> para automatizar y optimizar el codigo.
+En este proyecto se maquetó el [buscador de Google](https://luisariza.github.io/google_clone/) con <ins>HTML</ins> y <ins>CSS</ins> puro, aplicando **breakpoints** para hacerlo responsive y poder verlo en mobile, tablet y desktop. Se integró la herramienta de <ins>Parcel</ins> para automatizar y optimizar el codigo.
 
 Clona el proyecto en tu computadora para poder hacer tus propios cambios.
 
